@@ -2,8 +2,15 @@ const mongoose = require('mongoose');
 const {Schema} = mongoose;
 
 const Data = new Schema({
-   linkpais: String,
-   link: String,
+   club: String,
+   pais: String,
+   ciudad: String,
+   contacto: String,
+   cargo: String,
+   email: String,
+   evento: String,
+   fecha: String,
+   
     
     
 });
