@@ -11,7 +11,8 @@ const Data = new Schema({
    evento: String,
    fecha: String,
    score: Number,
-   alias: String
+   alias: String,
+   scorepais: String,
    
     
     
