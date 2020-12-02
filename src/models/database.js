@@ -10,6 +10,8 @@ const Data = new Schema({
    email: String,
    evento: String,
    fecha: String,
+   score: Number,
+   alias: String
    
     
     
