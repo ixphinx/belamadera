@@ -2,17 +2,34 @@ const mongoose = require('mongoose');
 const {Schema} = mongoose;
 
 const Data = new Schema({
-   club: String,
+   //usuario
+   nombre: String,
+   apellido: String,
+   cedula: Number,
+   email: String,
+   password: String,
    pais: String,
    ciudad: String,
-   contacto: String,
-   cargo: String,
-   email: String,
-   evento: String,
-   fecha: String,
-   score: Number,
-   alias: String,
-   scorepais: String,
+   historialcompras: String,
+   
+   //articulo
+   artnombre: String,
+   artdescripcion: String,
+   artprecio: Number,
+   artmoneda: String,
+   
+   //mensajes
+   msjid: String,
+   msjbody: String,
+   msjread: Boolean,
+   msjnew: Boolean,
+   
+   //shopping
+   shparticuloid: String,
+   shpcantidad: Number,
+   shpcomprador: String,
+   
+   
    
     
     
