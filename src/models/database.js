@@ -17,6 +17,7 @@ const Data = new Schema({
    artdescripcion: String,
    artprecio: Number,
    artmoneda: String,
+   artimg: String,
    
    //mensajes
    msjid: String,
@@ -29,7 +30,9 @@ const Data = new Schema({
    shpcantidad: Number,
    shpcomprador: String,
    
-   
+   //trabajos
+   imgtrabajo: String,
+   imgtrabajotitulo: String,
    
     
     
