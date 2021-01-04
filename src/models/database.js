@@ -5,7 +5,6 @@ const Data = new Schema({
    //usuario
    nombre: String,
    apellido: String,
-   cedula: Number,
    email: String,
    password: String,
    pais: String,
