@@ -17,6 +17,7 @@ const Data = new Schema({
    artprecio: Number,
    artmoneda: String,
    artimg: String,
+   artmllink: String,
    
    //mensajes
    msjid: String,
