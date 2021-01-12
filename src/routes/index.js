@@ -10,7 +10,7 @@ const Data = require('../models/database');
 cloudinary.config({ 
     cloud_name: 'dhzgjgjpk', 
     api_key: '862754171147947', 
-    api_secret: '8Aq3DIe9YwsP2Bi4pXwO4fYu6aY' 
+    api_secret: '8Aq3DIe9YwsP2Bi4pXwO4fYu6aY',
   });
 
   router.post('/images/add', async (req, res) => {
