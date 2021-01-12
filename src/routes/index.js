@@ -14,8 +14,7 @@ cloudinary.config({
   });
 
   router.post('/images/add', async (req, res) => {
-    res.header('no-cors');
-    req.header('no-cors');
+    res.header('Access-Control-Allow-Origin', '*');
     const { title, description } = req.body;
     for (let i = 0; i < req.files.length; i++) {
         const element = req.files[i];
