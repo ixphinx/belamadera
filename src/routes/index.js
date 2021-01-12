@@ -27,9 +27,7 @@ cloudinary.config({
         }
         
     }
-      res.json({
-          status: 'Dato guardaro'
-      });
+      res.redirect('/');
 
 });
 
